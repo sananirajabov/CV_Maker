@@ -1,0 +1,443 @@
+hr {
+  color: #000;
+}
+
+/*Login*/
+.well{
+    background-color:#fff!important;
+    border-radius:0!important;
+    border:black solid 1px;
+}
+
+.well.login-box {
+    border:#d1d1d1 solid 1px;
+    margin:0 auto;
+    margin-top:100px;
+}
+.well.login-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:13px;
+
+}
+.well.login-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+/*Registration*/
+.well.registration-box {
+    border:#d1d1d1 solid 1px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.well.registration-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+}
+.well.registration-box label {
+  font-weight:300;
+  font-size:13px;
+
+}
+.well.registration-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+/*Main Page*/
+li,ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*Home Page*/
+
+.home {
+background: #f6f7fa;
+}
+
+#navigation {
+  background: #37474F;
+}
+
+#navigation {
+padding: 0;
+}
+
+.display-table {
+display: table;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+.display-table-row {
+display: table-row;
+height: 100%;
+}
+
+.display-table-cell {
+display: table-cell;
+float: none;
+height: 100%;
+}
+
+.v-align {
+vertical-align: top;
+}
+
+.header-top {
+margin: 0;
+padding-top: 2px;
+}
+
+.header-top img {
+border-radius: 50%;
+max-width: 48px !important;
+width: 100%;
+}
+
+.add-project {
+background: #355C7D;
+color: #ffffff;
+font-size: 14px;
+font-weight: 600;
+padding: 10px 27px 10px 32px;
+position: relative;
+}
+
+.add-project a{
+  color: #ffffff;
+}
+
+.add-project a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-rightside .nav > li > a:focus,
+.header-rightside .nav > li > a:hover {
+background: none;
+text-decoration: none;
+}
+
+.navi i {
+font-size: 20px;
+}
+
+.header-top li {
+display: inline-block;
+text-align: center;
+}
+
+.header-top .dropdown-toggle {
+color: #0e1a35;
+}
+
+.header-top .dropdown-menu {
+border: medium none;
+left: -85px;
+padding: 17px;
+}
+.view {
+background: #5584ff none repeat scroll 0 0;
+border-radius: 100px;
+color: #ffffff;
+display: inline-block;
+font-size: 14px;
+font-weight: 600;
+margin-top: 10px;
+padding: 10px 15px;
+}
+
+.navbar-content > span {
+font-size: 13px;
+font-weight: 700;
+}
+
+.img-responsive {
+width: 100%;
+}
+#navigation{
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+header {
+background: #ffffff none repeat scroll 0 0;
+box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
+display: inline-block !important;
+line-height: 23px;
+padding: 15px;
+transition: all 0.5s ease 0s;
+width: 100%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.navi a {
+color: #ffffff;
+display: block;
+font-size: 17px;
+font-weight: 500;
+padding: 28px 20px;
+text-decoration: none;
+}
+
+.navi i {
+margin-right: 15px;
+color: #5584ff;
+}
+
+.navi .active a {
+background: #355C7D;
+padding-left: 15px;
+}
+
+.navi a:hover {
+background: #f5f5f5 none repeat scroll 0 0;
+border-left: 5px solid #f5f5f5;
+color: #666;
+display: block;
+padding-left: 15px;
+}
+
+.navbar-default {
+background-color: #ffffff;
+border-color: #ffffff;
+}
+
+.navbar-toggle {
+border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #0e1a35;
+}
+
+.hidden-xs{
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+
+.user-dashboard h1 {
+color: #0e1a35;
+font-size: 30px;
+font-weight: 500;
+margin: 0;
+padding: 21px 0;
+}
+.sales {
+background: #ffffff none repeat scroll 0 0;
+border: 1px solid #d4d9e3;
+display: inline-block;
+padding: 15px;
+width: 100%;
+}
+.sales button {
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+border: 1px solid #dadee7;
+border-radius: 100px;
+font-size: 15px;
+letter-spacing: 0.5px;
+padding-right: 32px;
+color: #0e1a35;
+}
+
+.sales button::before {
+content: "?";
+font-family: FontAwesome;
+position: absolute;
+right: 12px;
+top: 11px;
+}
+.sales  .btn-group {
+float: right;
+}
+.sales h2 {
+color: #8492af;
+float: left;
+font-size: 21px;
+font-weight: 600;
+margin: 0;
+padding: 9px 0 0;
+}
+.btn.btn-secondary.btn-lg.dropdown-toggle > span {
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 0.5px;
+}
+.sales .dropdown-menu{
+margin: 0px;
+padding: 0px;
+border: 0px;
+border-radius: 8px;
+width: 100%;
+color: #0e1a35;
+}
+.sales .btn-group.open .dropdown-toggle, .btn.active, .btn:active{
+box-shadow: none;
+}
+.sales .dropdown-menu > a {
+color: #0e1a35;
+display: inline-block;
+font-weight: 800;
+padding: 9px 0;
+text-align: center;
+width: 100%;
+}
+#my-cool-chart svg {
+width: 100%;
+}
+.sales .dropdown-menu > a:hover{
+color: #5584FF;
+}
+.shield-buttons {
+display: none;
+}
+.close, .close:focus, .close:hover {
+color: #fff;;
+opacity: 1;
+text-shadow: none;
+}
+
+.search input:focus{
+border-bottom: 1px solid #BDC4D4;
+line-height:22px;
+transition: 0.1s all;
+}
+.modal-header.login-header {
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+@media only screen and (max-device-width: 767px) {
+.login-logo img {
+  margin: 0 auto;
+}
+.tab-content .tab-pane {
+  padding: 20px 0;
+}
+#navigation .navi a {
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+#navigation .navi i {
+  margin-right: 0px;
+}
+#navigation .navi a:hover,
+#navigation .navi .active a {
+  background: #122143 none repeat scroll 0 0;
+  border-left: none;
+  display: block;
+  padding-left: 20px;
+}
+header .header-top img {
+  max-width: 38px !important;
+}
+.v-align header {
+  padding: 12px 15px;
+}
+header .header-top li {
+  padding-left: 13px;
+  padding-right: 6px;
+}
+.navbar-default .navbar-toggle {
+  border-color: rgba(0, 0, 0, 0);
+}
+.navbar-header .navbar-toggle {
+  float: left;
+  margin: 0;
+  padding: 0;
+  top: 12px;
+}
+button,
+  html [type="button"],
+  [type="reset"],
+  [type="submit"] {
+      outline: medium none;
+}
+.user-dashboard .sales h2 {
+  color: #8492af;
+  float: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  padding: 13px 0 0;
+}
+.user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle > span {
+  font-size: 11px;
+}
+.user-dashboard .sales button {
+  font-size: 11px;
+  padding-right: 23px;
+}
+.user-dashboard .sales h2 {
+font-size: 12px;
+}
+.gutter{
+padding: 0;
+}
+}
+
+@media only screen and (max-device-width: 992px) {
+header .header-top li {
+  padding-left: 20px !important;
+  padding-right: 0;
+}
+header .logo img {
+  max-width: 125px !important;
+}
+
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 998px){
+.user-dashboard .header-top {
+  padding-top: 5px;
+}
+.user-dashboard .header-rightside {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+.user-dashboard .header-rightside .header-top img {
+  max-width: 41px !important;
+}
+.user-dashboard .sales button {
+font-size: 10px;
+}
+.user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle > span {
+font-size: 12px;
+}
+.user-dashboard .sales h2 {
+font-size: 15px;
+}
+}
+@media only screen and (min-device-width:998px) and (max-device-width: 1350px){
+  #navigation .logo img {
+max-width: 130px;
+padding: 16px 0 17px;
+width: 100%;
+}
+}
