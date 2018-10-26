@@ -4,7 +4,7 @@
 <?php include 'common/body.php';?>
 <?php include 'backend/additional.php';?>
 <div class="user-dashboard">
-	<form class="" action="" method="get">
+	<form class="" action="" method="GET">
 		<h1>Aditional Information</h1>
 		<div class="row">
 			<div class="col-md-10 col-sm-5 col-xs-12 gutter">
